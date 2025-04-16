@@ -1,0 +1,77 @@
+/* Reset default browser styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* General body styling */
+body {
+    font-family: verdana, sans-serif;
+    line-height: 1.62;
+    color: #333333;
+    padding: 20px;
+    background-color: #C3D6E0;
+}
+
+/* Header styling */
+h1 {
+    font-size: 2em;
+    color: #333333;
+    margin-top: 0px;
+    margin-bottom: 10px;
+}
+
+h2 {
+    font-size: 1.5em;
+    color: #444;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+/* Paragraph styling */
+p {
+    font-family: 'Roboto', sans-serif;
+    margin-bottom: 10px;
+}
+
+/* Image styling */
+.image-section img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 0px;
+}
+
+.video-section {
+    padding: 20px;  /* Add space inside the section */
+    display: block; /* Ensure the section behaves like a block-level element */
+    width: 100%;  /* Ensure the width takes up the full container */
+}
+
+.iframe-container {
+    position: relative;
+    width: 100%;
+    padding-bottom: 56.25%; /* 16:9 aspect ratio (height/width = 9/16 = 0.5625) */
+    height: 0; /* Height is set to 0 to allow padding to define the height */
+    overflow: hidden;
+}
+
+.iframe-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%; /* Full width of the container */
+    height: 100%; /* Full height based on aspect ratio */
+    border: none; /* Removes any default border */
+}
+
+
+
+/* Div container styling */
+div {
+    margin-bottom: 20px;
+    padding: 15px;
+    background-color: #F2F2F2;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
